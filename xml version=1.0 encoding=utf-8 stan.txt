@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Configuration>
+    <InstanceGroup name="_default">
+        <Instance name="LSA" provider="SQLSERVER" driver="" datasource="INRONSGADI101\SGADISQL" user="LSA" password="00E000AC00FF00BE" />
+        <Instance name="TFIN" provider="SQLSERVER" driver="" datasource="INRONSGADI101\SGADISQL" user="TFIN" password="013101650123016A0124" />
+        <Instance name="TMFG123" provider="SQLSERVER" driver="" datasource="INRONSGADI101\SGADISQL/TMFG" user="SYSADM" password="01D1018201DB018801C9018D01C0" />
+        <Instance name="VTA123" provider="SQLSERVER" driver="" datasource="INRONSGADI101\MSSQLSERVER2022" user="VTA" password="026A023E025B0228025C026D025F026C0258" />
+        <Instance name="LSA111" provider="SQLSERVER" driver="" datasource="INRONSGADI101\MSSQLSERVER2022" user="LSA" password="00E000AC00FF00BE" />
+        <Instance name="TMFG" provider="SQLSERVER" driver="" datasource="INRONSGADI101\SGADISQL/TMFG" user="SYSADM" password="01D1018201DB018801C9018D01C0" />
+        <Instance name="TTA" provider="SQLSERVER" driver="" datasource="INRONSGADI101\SGADISQL" user="TTA" password="00E900BD00E900A8" />
+    </InstanceGroup>
+    <InstanceGroup name="Demo">
+        <Instance name="LSA456" provider="SQLSERVER" driver="" datasource="INRONSGADI101\MSSQLSERVER2022" user="LSA" password="00E000AC00FF00BE" />
+    </InstanceGroup>
+    <InstanceGroup name="Demo1">
+        <Instance name="LSA999" provider="SQLSERVER" driver="" datasource="INRONSGADI101\MSSQLSERVER2022" user="LSA" password="00E000AC00FF00BE" />
+    </InstanceGroup>
+    <InstanceGroup name="NETINST">
+        <Instance name="LSA888" provider="SQLSERVER" driver="" datasource="INRONSGADI101\MSSQLSERVER2022" user="LSA" password="00E000AC00FF00BE" />
+    </InstanceGroup>
+    <InstanceGroup name="Default123">
+        <Instance name="LSA1" provider="SQLSERVER" driver="" datasource="INRONSGADI101\MSSQLSERVER2022" user="LSA" password="00E000AC00FF00BE" />
+    </InstanceGroup>
+    <InstanceGroup name="Default1">
+        <Instance name="LSA111" provider="SQLSERVER" driver="" datasource="INRONSGADI101\MSSQLSERVER2022" user="LSA" password="00E000AC00FF00BE" />
+    </InstanceGroup>
+    <InstanceGroup name="NEW">
+        <Instance name="CVM11" provider="SQLSERVER" driver="" datasource="INRONSGADI101\MSSQLSERVER2022/CVM1" user="SYSADM" password="01D1018201DB018801C9018D01C0" />
+        <Instance name="LSA23" provider="SQLSERVER" driver="" datasource="INRONSGADI101\MSSQLSERVER2022" user="LSA" password="00E000AC00FF00BE" />
+    </InstanceGroup>
+    <InstanceGroup name="WKDF">
+        <Instance name="LSA11" provider="SQLSERVER" driver="" datasource="INRONSGADI101\MSSQLSERVER2022" user="LSA" password="00E000AC00FF00BE" />
+    </InstanceGroup>
+    <InstanceGroup name="IB">
+        <Instance name="LSAK" provider="SQLSERVER" driver="" datasource="INRONSGADI101\MSSQLSERVER2022" user="LSA" password="00E000AC00FF00BE" />
+        <Instance name="VTA1" provider="SQLSERVER" driver="" datasource="INRONSGADI101\MSSQLSERVER2022" user="VTA" password="00EB00BD00E900A8" />
+    </InstanceGroup>
+    <InstanceGroup name="KVKB">
+        <Instance name="CVM1" provider="SQLSERVER" driver="" datasource="INRONSGADI101\MSSQLSERVER2022/CVM1" user="SYSADM" password="01D1018201DB018801C9018D01C0" />
+    </InstanceGroup>
+</Configuration>
+<InstanceGroup name="FCS">
+        <Instance name="LSA" provider="SQLSERVER" driver="" datasource="USALVWORA12IGS" user="LSA" password="00E000AC00FF00BE" />
+        <Instance name="VTA" provider="SQLSERVER" driver="" datasource="USALVWORA12IGS" user="VTA" password="00EB00BD00E900A8" />
+        <Instance name="ERPV" provider="SQLSERVER" driver="" datasource="USALVWORA12IGS/VMFGCS0560368" user="SYSADM" password="01D1018201DB018801C9018D01C0" />
+    </InstanceGroup>
+ 
+You MUST log in as the Timesheet User
+ 
+LEONARDT , Password = Test123456$
+The SYSADM password = SYSADM
+The VTA password = VTA
+The LSA password = LSA
+The VISUAL database = VMFGCS0560368
+ 
+ 
